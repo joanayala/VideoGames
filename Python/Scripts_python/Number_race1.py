@@ -2,12 +2,12 @@
 #Date: 17-sep-2021
 '''
     Script description:
-    Cree un juego en Python que permita a un sólo jugador
-    lanzar dos dados en varias oportunidades consecutivas, y
-    finalice el juego cuando obtenga un par de unos [D1:1-D2:2]
+    Cree un mini juego en Python que permita a un sólo jugador
+    lanzar DOS dados en varias oportunidades consecutivas, y
+    finalice el juego cuando obtenga un par de UNOS [D1:1-D2:1]
 '''
 import os
-from random import randint, uniform, random
+from random import randint #uniform, random
 
 print("::: JUEGO CARRERA NUMÉRICA :::")
 status = True #Boolean
